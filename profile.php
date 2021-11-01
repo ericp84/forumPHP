@@ -4,6 +4,7 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="style.css">
 <?php include 'includes/head.php'; ?>
 <body>
     <?php include 'includes/navbar.php'; ?>
@@ -11,6 +12,7 @@
 
     <div class="container">
         <?php 
+        
             if(isset($errorMsg)){ echo $errorMsg; }
 
             if(isset($getHisQuestions)){

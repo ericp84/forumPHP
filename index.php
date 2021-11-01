@@ -3,8 +3,10 @@
     require('actions/questions/showAllQuestionsAction.php');
 ?>
 <!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
 <html lang="en">
 <?php include 'includes/head.php'; ?>
+
 <body>
     <?php include 'includes/navbar.php'; ?>
     <br><br>
@@ -14,6 +16,7 @@
         <form method="GET">
 
             <div class="form-group row">
+                <h1>TITLE FORUM</h1>
 
                 <div class="col-8">
                     <input type="search" name="search" class="form-control">
