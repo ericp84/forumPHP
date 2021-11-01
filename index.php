@@ -9,6 +9,7 @@
 
 <body class="bg-dark">
     <?php include 'includes/navbar.php'; ?>
+
     <br><br>
 
     <div class="container">
