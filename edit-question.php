@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'includes/head.php'; ?>
-<body>
+<body class="bg-dark">
     <?php include 'includes/navbar.php'; ?>
 
     <br><br>

@@ -2,10 +2,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'includes/head.php'; ?>
-<body>
+<body class="bg-dark text-white">
     
     <br><br>
-    <form class="container" method="POST">
+    <form class="container d-flex flex-column p-2 align-items-center justify-content-center" method="POST">
 
         <?php if(isset($errorMsg)){ echo '<p>'.$errorMsg.'</p>'; } ?>
 

@@ -4,9 +4,9 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
 <?php include 'includes/head.php'; ?>
-<body>
+<body class="bg-dark">
     <?php include 'includes/navbar.php'; ?>
     <br><br>
 

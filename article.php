@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'includes/head.php'; ?>
-<body>
+<body class="bg-dark">
     
     <?php include 'includes/navbar.php'; ?>
     <br><br>
@@ -21,7 +21,7 @@
 
             if(isset($question_publication_date)){
                 ?>
-                <section class="show-content">
+                <section class="show-content text-white">
                     <h3><?= $question_title; ?></h3>
                     <hr>
                     <p><?= $question_content; ?></p>
@@ -33,7 +33,7 @@
 
                     <form class="form-group" method="POST">
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Réponse :</label>
+                            <label for="exampleInputEmail1" class="form-label text-white">Réponse :</label>
                             <textarea name="answer" class="form-control"></textarea>
                             <br>
                             <button class="btn btn-primary" type="submit" name="validate">Répondre</button>

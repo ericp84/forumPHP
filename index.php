@@ -7,7 +7,7 @@
 <html lang="en">
 <?php include 'includes/head.php'; ?>
 
-<body>
+<body class="bg-dark">
     <?php include 'includes/navbar.php'; ?>
     <br><br>
 
@@ -16,7 +16,7 @@
         <form method="GET">
 
             <div class="form-group row">
-                <h1>TITLE FORUM</h1>
+                <h1 class="text-white">TITLE FORUM</h1>
 
                 <div class="col-8">
                     <input type="search" name="search" class="form-control">
